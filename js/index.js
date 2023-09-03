@@ -77,8 +77,18 @@ closeSideNav();
 $(".sideBar-menu i.inOutBtn").click(() => {
   if ($(".sideBar-menu").css("left") == "0px") {
     closeSideNav();
+    $("#searchLink").animate({ top: "200px" }, 500);
+    $("#cateLink").animate({ top: "200px" }, 600);
+    $("#areaLink").animate({ top: "200px" }, 700);
+    $("#indgLink").animate({ top: "200px" }, 800);
+    $("#contactLink").animate({ top: "200px" }, 900);
   } else {
     openSideNav();
+    $("#searchLink").animate({ top: "0px" }, 500);
+    $("#cateLink").animate({ top: "0px" }, 600);
+    $("#areaLink").animate({ top: "0px" }, 700);
+    $("#indgLink").animate({ top: "0px" }, 800);
+    $("#contactLink").animate({ top: "0px" }, 900);
   }
 });
 

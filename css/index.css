@@ -11,9 +11,13 @@ body {
 .logo {
   width: 40px;
 }
-
+li {
+  top: 200px;
+}
 i, li, button {
   cursor: pointer;
+  
+  
 }
 
 .meal-layer {
